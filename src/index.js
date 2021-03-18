@@ -77,31 +77,31 @@ app.put('/todos/:id', (request, response) => {
   const { title, deadline } = request.body;
   const { id } = request.params;
  
-  const todoIndex = user.todos.findIndex(todo => todo.id === id);
+  const todo = user.todos.find(todo => todo.id === id);
   
-  if (todoIndex === -1) {
+  if (!todo) {
     return response.status(404).json({ error: 'Todo not found!' });
   }
 
-  user.todos[todoIndex].title = title;
-  user.todos[todoIndex].deadline = new Date(deadline);
+  todo.title = title;
+  todo.deadline = new Date(deadline);
 
-  return response.json(user.todos[todoIndex]);
+  return response.json(todo);
 });
 
 app.patch('/todos/:id/done', (request, response) => {
   const { user } = request;
   const { id } = request.params;
 
-  const todoIndex = user.todos.findIndex(todo => todo.id === id);
+  const todo = user.todos.find(todo => todo.id === id);
   
-  if (todoIndex === -1) {
+  if (!todo) {
     return response.status(404).json({ error: 'Todo not found!' });
   }
 
-  user.todos[todoIndex].done = true;
+  todo.done = true;
 
-  return response.json(user.todos[todoIndex]);
+  return response.json(todo);
 });
 
 app.delete('/todos/:id', (request, response) => {
