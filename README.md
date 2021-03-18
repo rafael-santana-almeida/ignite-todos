@@ -2,7 +2,7 @@
   <img src="https://images.ctfassets.net/6m9bd13t776q/5yac5XKg5qiACu06a84icc/b18c4c2bd2594b3b27d24a943f711b08/second-trimester-to-dos-2160x1200.jpg?q=75&w=450" />
 </div>
 
-<h1 style="text-align: center;">Desafio Bootcamp Ignite | Rocketseat</h1> :rocket:
+<h1 style="text-align: center;">Desafio Bootcamp Ignite | Rocketseat :rocket:</h1> 
 
 ## Descrição e funcionalidades :memo:
 
