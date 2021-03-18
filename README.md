@@ -2,9 +2,9 @@
   <img src="https://images.ctfassets.net/6m9bd13t776q/5yac5XKg5qiACu06a84icc/b18c4c2bd2594b3b27d24a943f711b08/second-trimester-to-dos-2160x1200.jpg?q=75&w=450" />
 </div>
 
-<h1 style="text-align: center;">Desafio Bootcamp Ignite | Rocketseat</h1>
+<h1 style="text-align: center;">Desafio Bootcamp Ignite | Rocketseat</h1> :rocket:
 
-## Descrição e funcionalidades :rocket:
+## Descrição e funcionalidades :memo:
 
 Essa é uma pequena API desenvolvida em **NodeJS**, como primeiro desafio do bootcamp Ignite da Rocketseat, onde consiste em uma aplicação de gerenciamento de Tarefas (*todos*).
 
@@ -16,7 +16,6 @@ A API roda em http://localhost:3333 e possuí as seguintes rotas/funcionalidades
   "name": "Fulando de tal da silva",
   "username": "Nome de usuário"
 }
-
 ```
 * `GET /todos :` Rota para captura de todas as tarefas (*todos*) de um usuário. No Header da requisição deve ser informado o `username` do usuário.   
 
@@ -40,7 +39,7 @@ A API roda em http://localhost:3333 e possuí as seguintes rotas/funcionalidades
 
 * `DELETE /todos/:id :` Rota para excluir uma tarefa (*todo*). No Header da requisição deve ser informado o `username` do usuário.
 
-## Instalação
+## Instalação :wrench:
 Para rodar essa aplicação, será necessário possuir o  `Node` instalado na máquina, e um gerenciador de pacotes (nesse projeto estou utilizando o `yarn`).
 
 Após o repositório ter sido clonado, execute o comando `yarn` para instalar das dependencias. (`express`, `nodemon`, `cors`, `uuid`, `jest` e `supertest`)
