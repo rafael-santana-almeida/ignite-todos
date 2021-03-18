@@ -4,7 +4,7 @@
 
 <h1 align="center">Desafio Bootcamp Ignite | Rocketseat :rocket:</h1> 
 
-## Descrição e funcionalidades :memo:
+## :memo: Descrição e funcionalidades
 
 Essa é uma pequena API desenvolvida em **NodeJS**, como primeiro desafio do bootcamp Ignite da Rocketseat, onde consiste em uma aplicação de gerenciamento de Tarefas (*todos*).
 
@@ -39,7 +39,7 @@ A API roda em http://localhost:3333 e possuí as seguintes rotas/funcionalidades
 
 * `DELETE /todos/:id :` Rota para excluir uma tarefa (*todo*). No Header da requisição deve ser informado o `username` do usuário.
 
-## Instalação :wrench:
+## :wrench: Instalação
 Para rodar essa aplicação, será necessário possuir o  `Node` instalado na máquina, e um gerenciador de pacotes (nesse projeto estou utilizando o `yarn`).
 
 Após o repositório ter sido clonado, execute o comando `yarn` para instalar das dependencias. (`express`, `nodemon`, `cors`, `uuid`, `jest` e `supertest`)
