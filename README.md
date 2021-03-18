@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="https://images.ctfassets.net/6m9bd13t776q/5yac5XKg5qiACu06a84icc/b18c4c2bd2594b3b27d24a943f711b08/second-trimester-to-dos-2160x1200.jpg?q=75&w=450" />
-</p>
-
-<h1 align="center">Desafio Bootcamp Ignite | Rocketseat :rocket:</h1> 
+<h1 align="center">Todos - Ignite | Rocketseat :rocket:</h1> 
 
 ## :memo: Descrição e funcionalidades
 
